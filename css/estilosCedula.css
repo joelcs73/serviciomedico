@@ -1,0 +1,20 @@
+.wrap{ 
+    width: 1200px;
+	margin: 0 auto;
+}
+
+.redondear{
+-moz-border-radius: 15px 15px 15px 15px;
+/*para Safari y Chrome*/
+-webkit-border-radius: 15px 15px 15px 15px;
+/* para Opera */
+border-radius: 15px 15px 15px 15px;
+}   
+
+.checkbox {
+  /* All browsers except webkit*/
+  transform: scale(2.5);
+
+  /* Webkit browsers*/
+  -webkit-transform: scale(2.5);
+}
